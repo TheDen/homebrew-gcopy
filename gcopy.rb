@@ -5,11 +5,11 @@
 class Gcopy < Formula
   desc ""
   homepage "https://github.com/TheDen/gcopy"
-  version "1.9.3"
+  version "1.9.4"
   depends_on :macos
 
-  url "https://github.com/TheDen/gcopy/releases/download/v1.9.3/gcopy_1.9.3_darwin_all.tar.gz"
-  sha256 "d93a74f49362b07a84d2b956edd449f744b91ede2e4eaff77ce17df1968373d1"
+  url "https://github.com/TheDen/gcopy/releases/download/v1.9.4/gcopy_1.9.4_darwin_all.tar.gz"
+  sha256 "da65e4348866cc8fb79ac2a7e8285e1f39035b407ada52a5ce35f4e9e3a4f5a7"
 
   def install
     bin.install "gcopy"
